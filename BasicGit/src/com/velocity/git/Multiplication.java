@@ -18,6 +18,7 @@ public class Multiplication
 			System.out.println("Multiplication of "+x+" : "+y+" is "+mul);
 		}
 		sc.close();
+		System.out.println("Done...!");
 			
 	}
 }
