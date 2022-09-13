@@ -5,6 +5,10 @@ import java.util.List;
 
 public class ArrayListCheck 
 {
+	public static void addition()
+	{
+		System.out.println(10+20);
+	}
 	public static void main(String[] args) 
 	{
 		List<String> names=Arrays.asList("KIRAN","RAJ","AJAY","LADDU");
@@ -12,5 +16,6 @@ public class ArrayListCheck
 		{
 			System.out.println(s);
 		}
+		addition();
 	}
 }
